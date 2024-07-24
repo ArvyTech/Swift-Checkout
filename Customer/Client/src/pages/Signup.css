@@ -1,0 +1,73 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.signup-container{
+    padding: 20% 7%;
+    max-height: 100vh;
+}
+.signup-container>h1{
+    font-size: 30px;
+    margin: 0%;
+    padding: 3% 0%;
+    font-weight: 600;
+}
+
+.signup-container>h3{
+    font-size:22px ;
+    font-weight: normal;
+    letter-spacing: 1px;
+    margin-bottom: 3%;
+}
+.signup-input-container{
+    display: flex;
+    flex-direction: column;
+    padding: 10% 0%;
+}
+.signup-input-inner{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.signup-input-inner > label{
+    font-size: 14px;
+    color: rgb(204, 204, 204);
+    margin-bottom: 1%;
+}
+.signup-input-inner > input{
+    background: none;
+    border: none;
+    border-bottom: 1px solid rgb(224, 224, 224);
+    min-width: 80vw;
+    margin-bottom: 5%;
+    font-size: 18px;
+    padding: 1%;
+}
+.signup-input-inner>input:focus{
+    outline: none;
+}
+
+.signup-button{
+    padding: 4%;
+    min-width:85vw;
+    font-size: 16px;
+    border-radius: 50px;
+    border: none;
+    box-shadow:  13px 13px 23px #141414,
+    -13px -13px 23px #1a1a1a;
+}
+
+.goto-login{
+    font-size: 14px;
+    font-weight: 100;
+    padding: 5%;
+    margin-top: 3%;
+    text-align: center;
+}
+.goto-login > span{
+    color: rgb(83, 83, 255);
+}

@@ -1,0 +1,196 @@
+
+.counter{
+    text-align: center;
+    padding: 1.5% 4%;
+    font-size: 20px;
+    font-weight: 600;
+    box-shadow: 0 3px 6px rgb(0 0 0 / 16%), 0 1px 2px rgb(0 0 0 / 23%);
+    border-radius: 2px;
+}
+.home-main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+.home-main-inner{
+    min-width: 100%;
+    max-height: 90vh;
+}
+
+.home-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 100%;
+    padding: 4% 6%;
+    background-color: rgb(43, 43, 43);
+    position: fixed;
+    bottom: 0%;
+}
+.home-nav > button{
+    background-color: rgb(43, 43, 43);
+    border: none;
+}
+.home-nav > button >i{
+    font-size: 28px;
+}
+
+.scan-main{
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.scan-main>button{
+    min-width: 50%;
+    padding: 3%;
+    background-color: rgba(130, 130, 233, 0.842);
+}
+.product-modal{
+    background-color: #353535;
+    max-width: 90vw;
+    margin: auto;
+    margin-top: 40%;
+    padding: 5% 3%;
+    border-radius: 5px;
+}
+
+.modal-btn>button{
+    font-size: 16px;
+    padding: 4% 8%;
+    background-color: black linear-gradient(rgba(255, 255, 255, .06), rgba(255, 255, 255, .06));;
+    box-shadow: 0 3px 6px rgb(0 0 0 / 16%), 0 1px 2px rgb(0 0 0 / 23%);
+    border-radius: 4px;
+}
+.modal-btn{
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+/* Cart component */
+
+.cart-main{
+    min-height: 90vh;
+    min-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: unset;
+    padding: 10% 8%;
+
+    
+}
+
+.cart-shopping-location{
+    margin-bottom: 6vh;
+    min-width: 100%;
+}
+
+.cart-list-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.cart-list-heading{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 100%;
+    margin-bottom: 2vh;
+    padding-bottom: 1vh;
+    border-bottom: 2px solid rgba(130, 130, 233, 0.945);
+}
+.cart-list-heading > h2{
+    font-weight: 500;
+    font-size: 22px;
+}
+.cart-list{
+    display: flex;
+    flex-direction: column;
+    min-width: 100%;
+    padding: 0% 2%;
+    margin-bottom: 5vh;
+    max-height: 40vh;
+    overflow: scroll;
+    /* border: 1px solid whitesmoke; */
+    /* background-color: rgb(88, 88, 88); */
+}
+.cart-list-wrapper{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid rgb(158, 158, 158);
+}
+.cart-list-wrapper > button{
+    padding: 3% 5%;
+    /* max-width: 30vw; */
+    text-align: center;
+    margin-bottom: 1.5vh;
+    align-self: center;
+    font-weight: 600;
+    background-color: black linear-gradient(rgba(255, 255, 255, .06), rgba(255, 255, 255, .06));;
+    box-shadow: 0 3px 6px rgb(0 0 0 / 16%), 0 1px 2px rgb(0 0 0 / 23%);
+    border-radius: 4px;
+}
+.cart-list-top{
+    display: flex;
+    justify-content: space-between;
+}
+.cart-list-top >h2{
+    font-size: 20px;
+}
+.cart-list-bottom{
+    display: flex;
+    justify-content: space-between;
+    padding: 0% 3%;
+    margin-top: -5%;
+}
+.cart-list-bottom >  h3{
+    font-size: 16px;
+}
+.list-item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 100%;
+    margin-bottom:1.5vh;
+}
+.list-item > h3{
+    font-weight: 300;
+    font-size: 18px;
+    max-width: 50vw;
+}
+.list-item > h4{
+    font-weight: 400;
+    font-size: 16px;
+}
+
+
+.cart-total{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 100%;
+    margin-bottom: 6vh;
+}
+.cart-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    min-width: 100%;
+    margin-bottom: 2vh;
+}
+.cart-button > button{
+    font-size: 16px;
+    font-weight: 500;
+    padding: 3% 10%;
+    color: rgb(255, 255, 255);
+    background-color: rgba(130, 130, 233, 0.945);
+}

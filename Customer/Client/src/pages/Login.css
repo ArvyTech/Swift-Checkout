@@ -1,0 +1,83 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.Login-container{
+    padding: 7%;
+    max-height: 100vh;
+}
+
+.Login-inner{
+    min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.Login-inner > h1{
+    font-size: 30px;
+    margin: 0%;
+    padding: 3% 0%;
+    font-weight: 600;
+}
+.Login-inner > h3{
+    font-size:20px ;
+    font-weight: normal;
+}
+.Login-input-container{
+    display: flex;
+    flex-direction: column;
+    padding: 10% 0%;
+    
+}
+.Login-input-inner{
+    display: flex;
+    flex-direction: column;
+}
+.Login-input-inner > label{
+    font-size: 14px;
+    color: rgb(204, 204, 204);
+    margin-bottom: 2%;
+}
+.Login-input-inner > input{
+    background: none;
+    border: none;
+    border-bottom: 1px solid rgb(224, 224, 224);
+    min-width: 80vw;
+    margin-bottom: 8%;
+    font-size: 18px;
+    padding: 2%;
+}
+.Login-input-inner>input:focus{
+    outline: none;
+}
+
+.Login-button{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    
+}
+.Login-button>button{
+    padding: 4%;
+    min-width:85vw;
+    font-size: 16px;
+    border-radius: 50px;
+    border: none;
+    box-shadow:  13px 13px 23px #141414,
+    -13px -13px 23px #1a1a1a;
+}
+.goto-register{
+    font-size: 14px;
+    font-weight: 100;
+    padding: 5%;
+    margin-top: 5%;
+    text-align: center;
+}
+.goto-register > span{
+    color: rgb(83, 83, 255);
+}
